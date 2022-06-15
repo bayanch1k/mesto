@@ -1,0 +1,29 @@
+.popup__container {
+  width: 430px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 767px) {
+  .popup__container {
+    width: 320px;
+    height: 430px;
+    
+  }
+}
+
+/* @media screen and (max-width: 319px) {
+  .popup__container {
+    width: 100%;
+    
+    
+  }
+} */
