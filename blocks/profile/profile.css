@@ -1,6 +1,6 @@
 .profile {
   max-width: 882px;
-  margin: 40px auto 0;
+  margin: 40px 0;
   display: flex;
   flex-direction: row;
 }
