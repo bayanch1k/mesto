@@ -1,24 +1,19 @@
 .page {
-  background: #000;
-  font-family: 'Inter', sans-serif;
-  color: white;
-  /* display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center; */
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-style: normal;
+  background-color: #000000;
+  color: #FFFFFF;
+  
   max-width: 1280px;
+  min-height: 1217px;
+  
   margin: 0 auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  text-rendering: optimizeLegibility;
-}
-
-
-@media screen and (max-width: 1279px) {
- .page {
-    min-width: 320px;
-  }
+  
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+      
+   -webkit-text-size-adjust: 100%;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   text-rendering: optimizeLegibility;
 }
